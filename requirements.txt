@@ -1,0 +1,18 @@
+# ── Core API ──────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+
+# ── Image processing ──────────────────────────────────────────
+pillow>=10.0.0
+numpy>=1.24.0
+tifffile>=2023.1.1
+
+# ── ML inference ──────────────────────────────────────────────
+onnxruntime>=1.17.0          # CPU inference
+# onnxruntime-gpu>=1.17.0   # uncomment if GPU available
+
+# ── Deployment: Google Colab / ngrok ─────────────────────────
+# Uncomment these when running on Google Colab:
+# pyngrok>=7.0.0
+# nest_asyncio>=1.6.0
